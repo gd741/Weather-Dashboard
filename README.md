@@ -1,4 +1,4 @@
-# weather-dashboard
+# Weather-dashboard
 
 ## Project Outline
 
