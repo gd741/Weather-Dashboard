@@ -32,4 +32,4 @@ THEN I am again presented with current and future conditions for that city
 ![alt text](https://github.com/gd741/Weather-Dashboard/blob/main/assets/images/weather1.jpg)
 
 ## Site URL ##
-gd741.github.io/weather-dashboard/
+https://gd741.github.io/Weather-Dashboard/
