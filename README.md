@@ -29,7 +29,7 @@ THEN I am again presented with current and future conditions for that city
 
 ## Screenshots of Deployed Application
 
-![alt text]()
+![alt text](https://github.com/gd741/Weather-Dashboard/blob/main/assets/images/weather1.jpg)
 
 ## Site URL ##
-https://github.com/gd741/Weather-Dashboard/blob/main/assets/images/weather1.jpg
+
