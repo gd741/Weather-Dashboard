@@ -32,3 +32,4 @@ THEN I am again presented with current and future conditions for that city
 ![alt text]()
 
 ## Site URL ##
+https://github.com/gd741/Weather-Dashboard/blob/main/assets/images/weather1.jpg
