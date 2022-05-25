@@ -1,1 +1,112 @@
+<!DOCTYPE html>
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <main>
+
+        <div id="search-pane">
+            <form class="search">
+                <label for="city-input">City Search: </label>
+                <input id="city-input" type="text" class="search-input border">
+                <button id="search-button" class="border"><i class="fas fa-search"></i></button>
+            </form>
+
+            <form id="recent-searches" class="search">
+                <label for="recent-dropdown">Recent Searches: </label>
+                <select id="recent-dropdown" class="search-input border">
+                    <option>--Select a City--</option>
+                </select>
+                <button id="recent-searches-button" class="border"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+
+        <br>
+        <h2>Current Weather</h2>
+        <hr>
+
+        <div class="flex">
+            <div class="weather-card border">
+                <h3 id="city-name"></h3>
+                <h4 id="current-date"><span class="date"></span></h4>
+                <img id=currentWeatherIcon>
+                <img id="icon-0">
+                <ul id="current-weather-list">
+                    <li>Temp (°C): <span id="temperature"></span></li>
+                    <li>Humidity (%): <span id="humidity"></span></li>
+                    <li>Wind Speed (m/sec): <span id="wind-speed"></span></li>
+                    <li>UV index: <span id="uv-index"></span></li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Five Day Forecast</h2>
+        <hr>
+        <section class="flex">
+            <div class="weather-card border">
+                <h4 id="date-1"></h4>
+                <img id="icon-1">
+                <ul id="day-1">
+                    <li>Temp (°C): <span class="temperature"></span></li>
+                    <li>Humidity (%): <span class="humidity"></span></li>
+                    <li>Wind Speed (m/sec): <span class="wind-speed"></span></li>
+                </ul>
+            </div>
+            <div class="weather-card border">
+                <h4 id="date-2"></h4>
+                <img id="icon-2">
+                <ul id="day-2">
+                    <li>Temp (°C): <span class="temperature"></span></li>
+                    <li>Humidity (%): <span class="humidity"></span></li>
+                    <li>Wind Speed (m/sec): <span class="wind-speed"></span></li>
+                </ul>
+            </div>
+            <div class="weather-card border">
+                <h4 id="date-3"></h4>
+                <img id="icon-3">
+                <ul id="day-3">
+                    <li>Temp (°C): <span class="temperature"></span></li>
+                    <li>Humidity (%): <span class="humidity"></span></li>
+                    <li>Wind Speed (m/sec): <span class="wind-speed"></span></li>
+                </ul>
+            </div>
+            <div class="weather-card border">
+                <h4 id="date-4"></h4>
+                <img id="icon-4">
+                <ul id="day-4">
+                    <li>Temp (°C): <span class="temperature"></span></li>
+                    <li>Humidity (%): <span class="humidity"></span></li>
+                    <li>Wind Speed (m/sec): <span class="wind-speed"></span></li>
+                </ul>
+            </div>
+            <div class="weather-card border">
+                <h4 id="date-5"></h4>
+                <img id="icon-5">
+                <ul id="day-5">
+                    <li>Temperature (°C): <span class="temperature"></span></li>
+                    <li>Humidity (%): <span class="humidity"></span></li>
+                    <li>Wind Speed (m/sec): <span class="wind-speed"></span></li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
