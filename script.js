@@ -98,7 +98,7 @@ async function displayWeatherReport(event) {
   var lat = locationData.coord.lat;
   var lon = locationData.coord.lon;
 
-  //Gathers  current weather and forecast data
+  //Gathers current weather and forecast data
   var weatherForecast = await getWeatherForecast(lat, lon);
 
   //Displays city name on page
